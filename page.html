@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<html lang="en" class="animated slideInRight">
+	<head>
+		<title>GALLERY-PANTOMIME</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="ASSET/css/main.css" />
+		<link rel="icon" type="image/x-icon" href="icons/galleryicon.jpg">
+     <link rel="stylesheet" type="text/css" href="extras/footer.css">
+     <link rel="stylesheet" type="text/css" href="extras/navbar.css">
+     <link rel="stylesheet" type="text/css" href="animate.css">
+		<style>
+			<style>
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;background:#f9f9f9}.gg-box{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));grid-auto-rows:200px;grid-gap:8px}.gg-box img{object-fit:cover;cursor:pointer;width:100%;height:100%;background:rgba(255,255,255,0.02);border-radius:10px}.gg-box img:hover{opacity:.98}#gg-screen{position:fixed;width:100%;height:100%;z-index:1;top:0;left:0;background:rgba(255,255,255,0.85);z-index:9999;text-align:center}#gg-screen .gg-image{height:100%;display:inline-flex;justify-content:center;align-items:center}#gg-screen .gg-image img{max-width:100%;max-height:40%;margin:0 auto}.gg-bt{width:50px;height:50px;background:rgba(255,255,255,0.6);color:#222;text-align:center;line-height:47px;vertical-align:middle;cursor:pointer;-moz-transition:all .4s ease;-o-transition:all .4s ease;-webkit-transition:all .4s ease;transition:all .4s ease;font-size:25px;border:1px solid rgba(0,0,0,0.05);box-sizing:border-box;padding-left:2px;position:fixed;bottom:10px}.gg-bt:hover{background:rgba(255,255,255,0.8);border:1px solid rgba(0,0,0,0.5)}.gg-close{top:10px}.gg-close,.gg-next{right:10px}.gg-prev{right:61px}.gg-prev,.gg-next{bottom:10px}@media(min-width:478px){.gg-box img:nth-child(3n+0){grid-row-end:span 2}}@media(max-width:768px){.gg-box{grid-template-columns:repeat(auto-fit,minmax(150px,1fr));grid-auto-rows:150px;grid-gap:6px}}@media(max-width:450px){.gg-box{grid-template-columns:repeat(auto-fit,minmax(100px,1fr));grid-auto-rows:100px;grid-gap:4px}}
+    </style>
+    <style>
+    body { background-color: #006994; }
+    h1 {
+     text-align: center;
+     font-color:white;
+     font-family: Comic Sans MS,Comic Sans;
+     padding-top: 15px;
+     }
+  </style>
+
+		</style>
+		
+
+	</head>
+	<body>
+		<div class="topnav" id="myTopnav">
+  <a href="homepage.html" class="active" style="font-family: Comic Sans MS,Comic Sans">HOME</a>
+  <a href="team.html" style="font-family: Comic Sans MS,Comic Sans">TEAM</a>
+  <a href="page.html" style="font-family: Comic Sans MS,Comic Sans">GALLERY</a>
+  <a href="previous plays.html" style="font-family: Comic Sans MS,Comic Sans">EVENTS</a>
+  <a href="achievements.html" style="font-family: Comic Sans MS,Comic Sans">ACHIEVEMENTS</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+		<div class="page-wrap">
+
+			<!-- Nav -->
+				
+			<!-- Main -->
+				<section id="main">
+
+					<!-- Banner -->
+						<section id="banner">
+							<div class="inner">
+								<h1>PANTOMIME GALLERY</h1>
+								<p>A whole new world presented by PANTOMIME.</p>
+								<ul class="actions">
+									<li><a href="#galleries" class="button alt scrolly big">Continue</a></li>
+								</ul>
+							</div>
+						</section>
+
+					<!-- Gallery -->
+						<section id="galleries">
+
+							<!-- Photo Galleries -->
+								<div class="gallery">
+									<header class="special">
+										<h2>What's New</h2>
+									</header>
+									<div id="gg-screen" hidden></div>
+    <main>
+<div class="container">
+      </div>
+      <div class="main">
+        <div class="gg-box">
+           <img src="images/2.jpeg">
+           <img src="images/3.jpeg">
+           <img src="images/5.jpeg">
+           <img src="images/6.jpeg">
+           <img src="images/15.jpeg">
+           <img src="images/16.jpeg">
+           <img src="images/26.jpeg">
+           <img src="images/30.jpeg">
+           <img src="images/37.jpeg">
+           <img src="images/39.jpeg">
+           <img src="images/53.jpeg">
+           <img src="images/49.jpeg">
+           <img src="images/50.jpeg">
+        </div>
+      </div>
+    </main>
+
+    <script>
+    const body=document.querySelector("body");const images=document.querySelectorAll(".gg-box img");const l=images.length;for(var i=0;i<l;i++){images[i].addEventListener("click",function(g){const b=document.querySelector("#gg-screen");var n=this.src;var d=this;const j=images[0].src;const o=images[l-1].src;b.hidden=false;body.style.overflow="hidden";b.innerHTML='<div class="gg-image"></div><div class="gg-close gg-bt">&times</div><div class="gg-next gg-bt">&rarr;</div><div class="gg-prev gg-bt">&larr;</div>';const m=document.querySelector(".gg-image");const e=document.querySelector(".gg-prev");const a=document.querySelector(".gg-next");const p=document.querySelector(".gg-close");if(l>1){if(n==j){e.hidden=true;var k=false;var f=d.nextElementSibling}else{if(n==o){a.hidden=true;var f=false;var k=d.previousElementSibling}else{var k=d.previousElementSibling;var f=d.nextElementSibling}}}else{e.hidden=true;a.hidden=true}m.innerHTML='<img src="'+n+'">';b.addEventListener("click",function(q){if(q.target==this||q.target==p){b.hidden=true;body.style.overflow="auto"}});e.addEventListener("click",function(){c()});a.addEventListener("click",function(){h()});body.addEventListener("keydown",function(q){if(q.keyCode==37||q.keyCode==38){c()}});body.addEventListener("keydown",function(q){if(q.keyCode==39||q.keyCode==40){h()}});function c(){k=d.previousElementSibling;m.innerHTML='<img src="'+k.src+'">';d=d.previousElementSibling;var q=document.querySelector(".gg-image > img").src;if(q==j){e.hidden=true}else{e.hidden=false;a.hidden=false}}function h(){f=d.nextElementSibling;m.innerHTML='<img src="'+f.src+'">';d=d.nextElementSibling;var q=document.querySelector(".gg-image > img").src;if(q==o){a.hidden=true}else{a.hidden=false;e.hidden=false}}})};
+    </script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46156385-1', 'cssscript.com');
+  ga('send', 'pageview');
+
+</script>
+									
+									<footer>
+										<a href="gallery.html" target="_blank" class="button big">Full Gallery</a>
+									</footer>
+								</div>
+						</section>
+
+            <!-- Footer -->
+<div class="footer-social-icons">
+    <h4 class="_14">Follow us on</h4>
+    <ul class="social-icons">
+        <li><a href="https://www.facebook.com/drama.club.nitrkl/" target="_blank" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCGbhaKvtv781JhC4l9TTNMA" target="_blank" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+        <li><a href="https://www.instagram.com/pantomime.nitr/?hl=en" target="_blank" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRpfDTSZMctnbHxQJxFKwcShcJfxXFqlTZvQxJLTtZhtFDvtVNTDXLdRCDQxTmhbtQKsGgQ" target="_blank" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
+    </ul>
+</div>
+
+					
+
+		<!-- Scripts -->
+			<script src="ASSET/js/jquery.min.js"></script>
+			<script src="ASSET/js/jquery.poptrox.min.js"></script>
+			<script src="ASSET/js/jquery.scrolly.min.js"></script>
+			<script src="ASSET/js/skel.min.js"></script>
+			<script src="ASSET/js/util.js"></script>
+			<script src="ASSET/js/main.js"></script>
+
+	</body>
+</html>
